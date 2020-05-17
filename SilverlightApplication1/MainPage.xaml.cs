@@ -18,5 +18,10 @@ namespace SilverlightApplication1
         {
             InitializeComponent();
         }
+
+        private void btnFirst_Click(object sender, RoutedEventArgs e)
+        {
+            btnFirst.Content = "pushed";
+        }
     }
 }
